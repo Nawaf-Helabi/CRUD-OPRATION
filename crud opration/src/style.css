@@ -1,0 +1,83 @@
+/* Global css */
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.container {
+  padding: 10px 0;
+  margin: 0 auto;
+  
+  
+}
+/* header */
+.d-flex {
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Signup */
+.parent {
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.parent form {
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 10%);
+  width: 400px;
+  padding: 30px;
+}
+input {
+  padding: 10px 20px;
+  width: 100%;
+  outline: none;
+  border: 2px solid white;
+  border-radius: 10px;
+  box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.1);
+  transition: 0.3s;
+  margin-bottom: 8px;
+}
+label {
+  color: rgba(0, 0, 0, 0.548);
+  padding: 10px;
+  display: inline-block;
+}
+input:focus {
+  border: 2px solid rgba(85, 153, 216, 0.308);
+}
+input::placeholder {
+  color: rgba(0, 0, 0, 0, 3);
+}
+.register {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+.register button,
+.register-nav {
+  outline: none;
+  border: none;
+  background: rgba(19, 130, 233, 0.637);
+  padding: 10px 20px;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+  transform: 0.3s;
+  font-weight: bold;
+  border: 2px solid white;
+  text-decoration:none ;
+}
+.register button:hover,
+.register-nav:hover {
+  background: white;
+  color: rgba(19, 130, 233, 0.637);
+  border: 2px solid rgba(19, 130, 233, 0.637);
+}
+.error {
+  color: rgba(255, 0, 0, 0.699);
+  font-size: 14px;
+  margin-top: 0;
+}
